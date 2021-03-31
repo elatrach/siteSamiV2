@@ -1,0 +1,19 @@
+
+
+.banner{
+    background-image: linear-gradient(to right bottom, #121314, #252727, #3a3b3c, #4f5152, #666869);
+    background-size: 100%;
+}
+
+.navbar-brand ,.nav-item{
+    font-size: 1.5em;
+}
+
+
+
+/* Si on utilise un petit écran (que ce soit avec un ordinateur dans une petite fenêtre ou avec un smartphone), les titres sont réduits */
+@media only screen and (max-width: 983px) {
+    .navbar-brand , .nav-item{
+        font-size: 1em;
+    }
+}
